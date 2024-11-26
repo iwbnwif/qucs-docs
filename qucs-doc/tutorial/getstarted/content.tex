@@ -11,18 +11,16 @@
 
 \tutsection{Introduction}
 
-The following sections are meant to give an overview about what the
-Qucs software can be used for and how it is used to achieve this.
+The following text gives an overview about the Qucs-S
+software application, what it can be used for and how it 
+can be used.
 
 \medskip
 
-Qucs is free software licensed under the General Public License (GPL).
-It can be downloaded from \url{http://qucs.sourceforge.net} and comes
-with the complete source code.  Every user of the program is allowed
-and called upon (on a voluntary basis of course) to modify it for
-their purposes as long as changes are made public.  Contact the
-authors to verify them and finally to incorporate it into the
-software.
+Qucs-S is free software licensed under the General Public License (GPL).
+It can be downloaded from \url{https://ra3xdh.github.io/}. The complete
+source code is available.  Every user of the program is allowed
+to modify it as long as changes are made public.
 
 \medskip
 
@@ -30,34 +28,35 @@ The software is available for a variety of operating systems including
 \begin{itemize}
 \item GNU/Linux
 \item Windows
-\item FreeBSD
 \item MacOS
-\item NetBSD
-\item Solaris
 \end{itemize}
 
 On the homepage you'll find the source code to build and install the
-software.  Build instructions are given.  Also links for binary
-packages for certain distributions (e.g. Debian, SuSE, Fedora) can be
-found.
+software.  Build instructions are given.  Binary packages are available 
+for Windows, MacOS, and certain Linux distributions (e.g. Debian, Ubuntu,
+SuSE, Fedora, OpenSUSE).
 
 \medskip
 
 Once the software has been successfully installed on your system you
-can start it by issuing the
+can start it by entering the following command in a terminal 
 \begin{verbatim}
-  # qucs
+  # qucs-s
 \end{verbatim}
 
-command or by clicking the appropriate icon on your start menu or
-desktop.  Qucs is a multi-lingual program.  So depending on your
-system's language settings the Qucs graphical user interface (GUI)
+or by clicking the appropriate icon on your start menu or
+desktop.  Qucs-S is a multi-lingual program.  So depending on your
+system's language settings the Qucs-S graphical user interface (GUI)
 appears in different languages.
+
+\medskip
+
+The following image shows the application once it has been started.
 
 \begin{figure}[ht]
   \centering
   \includegraphics[width=1\linewidth]{start}
-  \caption{Qucs has been started}
+  \caption{Qucs-S application main screen}
   \label{fig:start}
 \end{figure}
 \FloatBarrier
@@ -87,7 +86,7 @@ again.
 
 \tutsection{Tool suite}
 
-Qucs consists of several standalone programs interacting with each
+Qucs-S consists of several standalone programs interacting with each
 other through the GUI.  There are
 
 \begin{itemize}
@@ -96,7 +95,7 @@ other through the GUI.  There are
 The GUI is used to create schematics, setup simulations, display
 simulation results, writing VHDL code, etc.
 
-\item the backend analogue simulator,
+\item the backend simulation engines,
 
 The analogue simulator is a command line program which is run by the
 GUI in order to simulate the schematic which you previously setup.  It
